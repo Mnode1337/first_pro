@@ -1,5 +1,5 @@
 
-from two import display
+from two import display, user_choice
 
 
 #from my_main_package import some_main_script
@@ -13,16 +13,17 @@ from two import display
 
 
 row1 = ['','','']
-row2 = ['','','']
+row2 = ['','X','']
 row3 = ['','','']
 
-
-
+#result = input("Choose an index position: ")
+#position_index = int(result)
 
 
 if __name__ == '__main__':
     #run the script
-    display(row1,row2,row3)
+    #display(row1,row2,row3)
+    user_choice()
 
 
 
